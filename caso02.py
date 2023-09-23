@@ -7,6 +7,6 @@ class Persona:
 
 
 if __name__ == '__main__':
-            person = Persona("Justin", 20)
-            print(person.nombre)
-            print(person.edad)
+    person = Persona("Justin", 20)
+    print(person.nombre)
+    print(person.edad)

@@ -8,9 +8,9 @@ class Persona:
     """The self parameter is a reference to the current
     instance of the class, and is used to access variables
     that belong to the class """
-    def mostrar(self):
-        print("Me presento mi nombre es: " + self.nombre +
-            ' y actualmente mi edad es: ' + str(self.edad))
+    def mostrar(mipalabra):
+        print("Me presento mi nombre es: " + mipalabra.nombre +
+            ' y actualmente mi edad es: ' + str(mipalabra.edad))
 
 
 
@@ -18,4 +18,3 @@ if __name__ == '__main__':
             person = Persona("Justin", 20)
             print(person.nombre)
             print(person.edad)
-            print(person.mostrar())
